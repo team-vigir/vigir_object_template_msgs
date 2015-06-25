@@ -1,0 +1,11 @@
+#Hand side definition to retreive grasps
+uint8 LEFT_HAND     = 0
+uint8 RIGHT_HAND    = 1
+uint8 BOTH_HANDS    = 2
+
+# Unique id of template of interest
+uint16 template_id
+uint8  hand_side
+---
+GraspInfo grasp_information
+GraspInfo pre_grasp_information

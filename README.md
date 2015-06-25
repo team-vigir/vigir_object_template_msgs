@@ -1,0 +1,1 @@
+# vigir_object_template_msgs

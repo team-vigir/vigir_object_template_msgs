@@ -1,0 +1,14 @@
+# Unique ID of instantiated template
+uint16 template_id
+
+# Wrist pose in world frame, inside frame id defines frame to attach to
+geometry_msgs/PoseStamped pose
+---
+# Pose of template in wrist frame
+geometry_msgs/PoseStamped template_pose
+
+# Mass of template
+float32 template_mass
+
+# COM of template in wrist frame
+geometry_msgs/Point template_com

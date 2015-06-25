@@ -1,0 +1,23 @@
+## Adds an OSU convex hull mesh to the list of available OCS templates
+##	callback should add mesh to the world
+
+# A sortable, readily-identified name (Likely task based, e.g. hose1)
+string template_name
+
+# Left hand or right hand "l" or "r"
+string which_hand
+
+# Mass in Kg. Approximated based on volume
+float64 template_mass
+
+# The location of the center of mass of the convex hull
+geometry_msgs/Point template_CoM
+
+# Unused as of 4/7/2015
+vigir_object_template_msgs/Affordance[] affordances
+vigir_object_template_msgs/Usability[] usabilities
+
+---
+# The new id and type for this template
+uint16 template_id
+uint16 template_type

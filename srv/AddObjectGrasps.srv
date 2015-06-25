@@ -1,0 +1,16 @@
+## Adds known good grasps (reachable and high grasp metric score) to the previously added convex hull template.
+
+# The numeric id of the template these grasps belong to
+#	mesh has already been added
+uint16 template_type
+
+# The hand that these grasps were created for
+string which_hand
+string left_hand=left
+string right_hand=right
+
+# The list of grasps to add
+#	could be as few as one or as many as one hundred
+moveit_msgs/Grasp[] grasps
+---
+bool grasps_added

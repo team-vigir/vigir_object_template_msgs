@@ -1,0 +1,10 @@
+# Unique id of template of interest
+uint16 template_id
+
+# Unique id of usability of interest
+uint8 usability_id
+
+# Unique name of usability of interest
+string usability_name
+---
+geometry_msgs/PoseStamped wrist_usability
