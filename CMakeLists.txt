@@ -43,6 +43,7 @@ find_package(catkin REQUIRED COMPONENTS geometry_msgs moveit_msgs visualization_
 # Generate messages in the 'msg' folder
  add_message_files(
    FILES
+   VigirHandMass.msg
    Affordance.msg
    Usability.msg
    StandPose.msg
