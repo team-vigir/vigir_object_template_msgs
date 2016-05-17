@@ -1,0 +1,4 @@
+# Type of template of interest
+uint16 template_type
+---
+TemplateTypeInfo template_type_information
