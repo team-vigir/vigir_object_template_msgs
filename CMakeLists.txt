@@ -43,10 +43,6 @@ find_package(catkin REQUIRED COMPONENTS geometry_msgs moveit_msgs visualization_
 # Generate messages in the 'msg' folder
  add_message_files(
    FILES
-   TemplateServerAdd.msg
-   TemplateServerRemove.msg
-   TemplateServerUpdate.msg
-   TemplateServerList.msg
    VigirHandMass.msg
    Affordance.msg
    Usability.msg
@@ -62,8 +58,7 @@ find_package(catkin REQUIRED COMPONENTS geometry_msgs moveit_msgs visualization_
 # Generate services in the 'srv' folder
  add_service_files(
    FILES
-   GetInstantiatedTemplateStateAndTypeInfo.srv
-   GetTemplateInfo.srv
+   GetTemplateStateAndTypeInfo.srv
    GetGraspInfo.srv
    GetInstantiatedGraspInfo.srv
    SetAttachedObjectTemplate.srv
