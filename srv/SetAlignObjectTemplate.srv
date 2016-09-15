@@ -1,0 +1,7 @@
+# Unique ID of instantiated template
+uint16 template_id
+
+# Template pose in world frame, inside frame id defines frame to align to
+geometry_msgs/PoseStamped pose
+---
+

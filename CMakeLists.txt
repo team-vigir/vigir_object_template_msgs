@@ -67,6 +67,7 @@ find_package(catkin REQUIRED COMPONENTS geometry_msgs moveit_msgs visualization_
    GetGraspInfo.srv
    GetInstantiatedGraspInfo.srv
    SetAttachedObjectTemplate.srv
+   SetAlignObjectTemplate.srv
    AddObjectTemplate.srv
    AddObjectGrasps.srv
    GetAffordanceInWristFrame.srv
