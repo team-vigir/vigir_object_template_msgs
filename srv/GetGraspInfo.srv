@@ -1,4 +1,6 @@
 # Type of template of interest
 uint16 template_type
+string manipulator_type
 ---
-GraspInfo   grasp_information
+GraspInfo grasp_information
+GraspInfo pre_grasp_information
