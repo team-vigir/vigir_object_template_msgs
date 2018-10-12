@@ -1,5 +1,6 @@
 # Type of template of interest
 uint16 template_type
+string template_name
 string manipulator_type
 string grasp_id
 ---
